@@ -51,6 +51,17 @@ Se implementaron pruebas unitarias con NUnit para verificar:
 - inserción de productos en la colección interna
 - búsqueda por nombre y caso no encontrado
 
+## Herramientas utilizadas
+
+Para el desarrollo y validación de este proyecto se utilizaron las siguientes herramientas:
+
+- C# / .NET SDK: desarrollo de la lógica y la solución del proyecto.
+- NUnit: framework para pruebas unitarias.
+- dotnet test: ejecución de la suite de pruebas automatizadas.
+- Git: control de versión del repositorio.
+- GitHub CLI (`gh`): creación y configuración del repositorio remoto en GitHub.
+- Visual Studio Code: entorno de desarrollo y edición del código.
+
 ## Ejecución
 
 Para ejecutar la suite de pruebas:
