@@ -1,0 +1,11 @@
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/bin/Debug/net10.0/ProductSystem.deps.json
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/bin/Debug/net10.0/ProductSystem.dll
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/bin/Debug/net10.0/ProductSystem.pdb
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/obj/Debug/net10.0/ProductSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/obj/Debug/net10.0/ProductSystem.AssemblyInfoInputs.cache
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/obj/Debug/net10.0/ProductSystem.AssemblyInfo.cs
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/obj/Debug/net10.0/ProductSystem.csproj.CoreCompileInputs.cache
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/obj/Debug/net10.0/ProductSystem.dll
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/obj/Debug/net10.0/refint/ProductSystem.dll
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/obj/Debug/net10.0/ProductSystem.pdb
+/home/flor/Documentos/IFTS29/2_Segundo-año_Primer-cuatrimestre/MPS_Metodología-de-pruebas-de-sistemas/TP2/MPS_TP2/ProductSystem/obj/Debug/net10.0/ref/ProductSystem.dll
