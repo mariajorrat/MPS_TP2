@@ -26,6 +26,14 @@ public class ProductTests
     }
 
     [Test]
+    public void AddProduct_RejectsNullProduct()
+    {
+        var manager = new ProductManager();
+
+        Assert.Throws<ArgumentNullException>(() => manager.AddProduct(null!));
+    }
+
+    [Test]
     public void FindProductByName_ReturnsMatchingProduct()
     {
         var manager = new ProductManager();
@@ -36,6 +44,30 @@ public class ProductTests
 
         Assert.That(found, Is.Not.Null);
         Assert.That(found!.Name, Is.EqualTo("Teclado"));
+    }
+
+    [Test]
+    public void FindProductByName_IsCaseInsensitive()
+    {
+        var manager = new ProductManager();
+        manager.AddProduct(new Product(1, "Teclado", 1000m, "Electrónica"));
+
+        var found = manager.FindProductByName("teclado");
+
+        Assert.That(found, Is.Not.Null);
+        Assert.That(found!.Name, Is.EqualTo("Teclado"));
+    }
+
+    [TestCase("")]
+    [TestCase("   ")]
+    [TestCase(null)]
+    public void FindProductByName_WhenNameIsEmpty_ReturnsNull(string? name)
+    {
+        var manager = new ProductManager();
+
+        var found = manager.FindProductByName(name!);
+
+        Assert.That(found, Is.Null);
     }
 
     [Test]
@@ -51,6 +83,8 @@ public class ProductTests
 
     [TestCase(1000, "Electrónica", 1100)]
     [TestCase(1000, "Alimentos", 1050)]
+    [TestCase(0, "Electrónica", 0)]
+    [TestCase(0, "Alimentos", 0)]
     public void CalculateTotalPrice_ReturnsPricePlusApplicableTax(decimal basePrice, string category, decimal expected)
     {
         var manager = new ProductManager();
