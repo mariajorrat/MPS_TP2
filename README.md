@@ -49,7 +49,10 @@ Se implementaron pruebas unitarias con NUnit para verificar:
 - rechazo de productos con valores inválidos
 - cálculo del precio total según la categoría
 - inserción de productos en la colección interna
-- búsqueda por nombre y caso no encontrado
+- búsqueda por nombre, sin distinguir mayúsculas/minúsculas, y caso no encontrado
+- validación de nombres vacíos o nulos
+- cálculo con precio cero
+- rechazo de productos nulos
 
 ## Herramientas utilizadas
 
@@ -72,4 +75,4 @@ dotnet test MPS_TP2.slnx --nologo
 
 ## Resultado esperado
 
-La solución debe pasar correctamente la validación de pruebas con un resultado de 10 pruebas ejecutadas y 10 aprobadas.
+La solución debe pasar correctamente la validación de pruebas con un resultado de 17 pruebas ejecutadas y 17 aprobadas.

@@ -41,9 +41,12 @@ public class ProductTests
         manager.AddProduct(new Product(2, "Leche", 50m, "Alimentos"));
 
         var found = manager.FindProductByName("Teclado");
+        var foundFood = manager.FindProductByName("Leche");
 
         Assert.That(found, Is.Not.Null);
         Assert.That(found!.Name, Is.EqualTo("Teclado"));
+        Assert.That(foundFood, Is.Not.Null);
+        Assert.That(foundFood!.Name, Is.EqualTo("Leche"));
     }
 
     [Test]
