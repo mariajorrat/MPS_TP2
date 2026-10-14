@@ -115,15 +115,18 @@ public class ProductTests
     {
         var manager = new ProductManager();
         var product = new Product(1, "TV", 100m, "Electrónica");
+        product.Price = -10m;
 
-        Assert.Throws<ArgumentOutOfRangeException>(() => manager.AddProduct(new Product(2, "TV Negativa", -10m, "Electrónica")));
+        Assert.Throws<ArgumentOutOfRangeException>(() => manager.AddProduct(product));
     }
 
     [Test]
     public void AddProduct_RejectsInvalidCategory()
     {
         var manager = new ProductManager();
+        var product = new Product(1, "TV", 100m, "Electrónica");
+        product.Category = "Ropa";
 
-        Assert.Throws<ArgumentException>(() => manager.AddProduct(new Product(1, "TV", 100m, "Ropa")));
+        Assert.Throws<ArgumentException>(() => manager.AddProduct(product));
     }
 }
